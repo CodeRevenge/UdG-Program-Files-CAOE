@@ -1,4 +1,4 @@
-#include <iostream>                           //Solo requeriremos de la biblioteca "iostram"
+#include <iostream>                           //Solo requeriremos de la biblioteca "iostream"
 
 using namespace std; 
 
@@ -9,7 +9,7 @@ int main()
     int result, resid; 
     
     result = divd / divs;                      //Aqui realizamos la operacion de la división
-    resid = 100 % 8;                          //Y aqui extraemos el residuo
+    resid = divd % divs;                          //Y aqui extraemos el residuo
     
     cout << "Resultado: " << result << endl;  //Mostramos el resultado de la división
     cout << "Residuo: " << resid;             // Y el residuo
